@@ -15,7 +15,6 @@ dependencies {
     api("com.squareup.okhttp3:okhttp")
     api("com.squareup.okhttp3:logging-interceptor")
 
-
     // Retrofit
     def retrofit_version = '2.9.0'
     api "com.squareup.retrofit2:retrofit:$retrofit_version"
@@ -23,5 +22,15 @@ dependencies {
 
     //Gson
     api 'com.google.code.gson:gson:2.8.6'
+
+    // Paging3
+    implementation "androidx.paging:paging-common:$paging_version"
+
+    //Javax Inject
+    implementation "javax.inject:javax.inject:1"
+
+    // Coroutines core
+    api "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version"
+
 
 }
